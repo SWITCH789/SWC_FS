@@ -1,0 +1,94 @@
+.app-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #2563eb;
+  color: rgb(0, 255, 242);
+  border-radius: 16px;
+}
+
+.topbar h1 {
+  margin: 4px 0 0;
+  font-size: 1.6rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-links a {
+  color: rgb(0, 255, 242);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.card {
+  background: #ffcc41;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #2563eb;
+  color: rgb(0, 255, 242);
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ticket-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ticket-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .app-shell {
+    padding: 12px;
+  }
+
+  .topbar,
+  .ticket-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
