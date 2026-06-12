@@ -1,0 +1,3 @@
+com\example\apigateway\filter\AuthenticationFilter.class
+com\example\apigateway\ApiGatewayApplication.class
+com\example\apigateway\config\SecurityConfig.class
